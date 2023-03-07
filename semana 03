@@ -1,0 +1,31 @@
+public class introdução {
+
+    public static void public static void main(String[] args) {
+        
+    }
+    // comentario de uma linha
+    /*
+    * comentario de varias
+    * linhas
+    */
+
+    // tipos primitivos
+    // inteiros
+    // byte,short,int,long
+    
+    byte n1=100;//-128 a 127
+    short n2 =3000;//-32768 a 327767
+    int n3 =321312321;//
+    long n4 =323323323;// 8 bytes
+    
+    // pomto fluante
+    float nota1 =10.34343f; 4 bytes
+    double nota2=10.34344334;// 8 bytes
+
+// boolean
+boolean ligado= true;
+boolean teste = false;
+
+//string
+string nome="joão da silva";
+system  

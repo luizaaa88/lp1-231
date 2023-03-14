@@ -29,3 +29,18 @@ boolean teste = false;
 //string
 string nome="joão da silva";
 system  
+
+// variavéis e constantes
+int idade2;
+idade2"
+idade
+int
+// entrada e saida de dados
+
+// entrada -class scanner
+saida -systen .out
+scanner sc = new scanner (systen.in);
+string nomeinformado = sc nextLine();
+systen.out.println ("entre com o seu nome");
+int idadeinformad = sc nextIng ();
+systen out print

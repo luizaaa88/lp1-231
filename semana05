@@ -1,0 +1,20 @@
+public class introdução
+private static volume
+private static float largura;
+private static float altura;
+public float getlargura(){
+    return largura;
+}
+public boolean setlargura(float largura){
+    if((largura<0,5) (largura >200))
+    system.out.println9 ("numero invalido");
+    return false;
+} else {
+     quadradro, largura = volume
+return true;
+   }
+}
+public float getAltura() {
+    return altura;
+}
+

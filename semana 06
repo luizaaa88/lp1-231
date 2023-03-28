@@ -1,0 +1,19 @@
+package semana06;
+public class metodos {
+    run debung
+    public static void main (string[]args){
+        system.out.println(math.sqrt(25,0));
+        imprimirpalavra("ola mundo")
+        //soma dois numero
+        public static double somar(double numero01,numero02,) {
+        return numero1+numero2;
+
+    }
+    //public modificador de acesso-qualquer classe em qualquer //
+    //pacote pode acessar o metodo
+    //static- o metodo fica associado a classe e não objetosdela
+    //void -tipo de retorno (void=sem retorno)
+    //imprimirpalavra-nome metodo
+    //parãmetros-referencias aos valores passado na chamada do método
+    public static void imiprimirpalavra(string palavra){
+        system.out.println(palavra.toUppercase());

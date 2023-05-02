@@ -14,7 +14,7 @@ public class EstruturaControle {
             if (ligado ==)
             systen.out. println ("sensor ligado")
         } else {
-            system.out. println("sensor desligado")
+            system.out. println("sen (settings -> developer settings)sor desligado")
             //switch
             //char,
             //

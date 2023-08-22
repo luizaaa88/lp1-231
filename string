@@ -1,0 +1,31 @@
+umero int:
+-enuciado: string
++getnumero(): int
++set(Numero: int) void
++getEnuciado():string
++setEnuciado(enuciado: string): void
++getpontuacao(): int
++setpontuacao(pontuacao: int): void
+toString():
+
+
+VouFquestao
+
++tostring():string
+
+unicaquestao
+
+
++tostring(): string
+
+
+Multiquestao
+
++toString(): string
+
+prova
+-questoes arrayList<questao>
++addquestao(questao: questao): void
+Calcularpontuacao() int
+
+

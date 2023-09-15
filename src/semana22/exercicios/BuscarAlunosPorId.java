@@ -1,19 +1,17 @@
-package semana22;
+package exercicios;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-
-public class ListarTodosAlunos {
+public class BuscarAlunosPorId {
     public static void main(String[] args) throws SQLException {
         
         String url = "jdbc:mysql://localhost/estudante?user=estudante&password=estudante&useSSL=true";
         Connection conn = DriverManager.getConnection(url);
 
-        String sql = "SELECT * FROM alunos;";
-        Statement stm = conn.createStatement();
+        Scanner sc = new Scanner(Systen.in);
+        int id = sc.nextInt(); 
+
+        String sql = "SELECT * FROM alunos WHERE id = ?;";
+        PreparedStatement pstm = conn.prepareStatement(sql);
+        pstm.setInt(1, id);
         ResultSet rs = stm.executeQuery(sql);
 
         while(rs.next()) {
